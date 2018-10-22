@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Pacifico|Righteous|Roboto+Condensed|Ubuntu');
+
+body{
+  padding:0%;
+  margin:0%;
+  font-family: 'Lato';
+}
+.navbar-brand {
+  font-family: 'Pacifico';
+  font-size:  35px;
+  color: lightcoral !important ;
+}
+.nav-link{
+  font-size: 16px;
+  margin: 15px;
+  color: black !important;
+  font-family: 'Roboto';
+}
+.nav-link:hover{
+color: #00e8e8 !important;
+}
+.active .nav-link{
+  color: #00e8e8 !important;
+}
+.btn-btn-light{
+  padding:13px 46px;
+  margin-right: 4%;
+  background-color: transparent;
+  transition: :all 300ms ease-in;
+}
+.btn-btn-light:hover{
+  color: white;
+  background-color:#00e8e8 ;
+}
+.site-content{
+  background-image: url('/stock/abc.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+}
+.site-title, .site-desc{
+  color: white;
+  font-family: 'Righteous';
+}
+.site-title{
+  margin-top: 30%;
+  margin-bottom: 6%;
+  font-size: 50px;
+}
+.site-desc{
+  font-size: 14px;
+  margin-left: 0%;
+  padding-left: 0%;
+}
+.btn1{
+    margin-left: 0%;
+    background-color: black;
+    color: white;
+}
+.btn2{
+
+    background-color: white;
+}
+.btn1, .btn2{
+  margin-top: 10%;
+  margin-bottom: 50%;
+}
+.card1{
+  margin-bottom: 50%;
+
+}
+.card-img-top {
+    width: 100%;
+    height: 25vw;
+    object-fit: cover;
+}
+ .container-fluid{
+  background-image: url('/stock/wall.jpg');
+  background-size: cover;
+  background-attachment:  fixed;
+}
+.section3 i{
+  color: #00e8e8;
+}
